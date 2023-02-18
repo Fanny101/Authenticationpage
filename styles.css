@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+body {
+    background-color: #070000;
+    font-family: 'plus Jakarta Sans', sans-serif;
+    color: #ffffff;
+    margin-left: 4vw;
+}
