@@ -9,11 +9,14 @@ html {
 body {
    background-color: blue;
    display: flex;
-   flex-direction: column;
-   align-items: center;
    justify-content: center;
+   align-items: center;
    min-height: 100vh;
+   width: fit-content;
 }
-main{
-    background-color: red;
+.auth_card{
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+  
 }
