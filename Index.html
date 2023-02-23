@@ -16,15 +16,62 @@
         Login
     </div>
 
-    <div>
+    <div id="username">
         <label for="username">Username</label>
+        <span class="user_name">
+             <img src="https://i.pinimg.com/474x/03/07/55/030755c921ad01c3b7987b03af2927fc.jpg" alt="" width="40px", height="40px">
         <input type="text" id="username" placeholder="Type your username" required>
+        </span>
+       
+    </div>
+<hr>
+    <div id="password">
+        <label for="password">Password</label>
+        <span class="pass_word">
+            <img src="https://www.shutterstock.com/image-vector/lock-icon-260nw-425675884.jpg" alt="" width="40px", height="40px">
+        <input type="password" id="password" placeholder="Input your password" required>
+        </span>
+        
+    </div>
+<hr>
+    <div id="forgot_password">
+      <span><a href="#home">Forgot Password?</a></span>
     </div>
 
     <div>
-        <label for="password">Password</label>
-        <input type="password" id="password" placeholder="Input your password" required>
+        <button>Login</button>
     </div>
+
+    <div>
+        <span class="">or sign up using</span>
+       <ul class="socialmedia_images">
+
+        <li>
+            <a href="#home"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/1200px-Facebook_f_logo_%282021%29.svg.png" alt="">
+            </a>
+        </li>
+
+
+        <li>
+            <a href="#home">
+                <img src="data:image/jpeg;base64,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" alt="">
+        </a>
+    </li>
+
+
+        <li>
+            <a href="#home">
+                <img src="https://icons-for-free.com/iconfiles/png/512/gmail+logo+media+mobile+social+icon-1320193180054740262.png" alt="">
+            </a>
+            </li>
+       </ul>
+    </div>
+
+    <div class="sign_up">
+        <span>or sign up using</span>
+        <a href="#home">Sign up</a>
+    </div>
+
    </form>
  </div>
 </body>

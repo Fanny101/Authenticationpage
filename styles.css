@@ -2,21 +2,55 @@
   @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,400;0,600;1,900&display=swap');
 
 
-html {
-    box-sizing: border-box; 
-    font-family: 'Bitter', serif;
+html { 
+   
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
 }
 body {
-   background-color: blue;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   min-height: 100vh;
-   width: fit-content;
+  font-family: 'Bitter', serif;
 }
 .auth_card{
     background-color:#fff;
     display: flex;
     justify-content: center;
+   
   
+}
+#username{
+  display: flex;
+  flex-direction: column;
+}
+.socialmedia_images{
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialmedia_images img{
+  width: 50px;
+  height: 50px;
+  border-radius: 17px;
+}
+
+.user_name{
+  display: flex;
+}
+.pass_word{
+  display:flex;
+}
+.sign_up{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ span .forgot_password{
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul, li{
+  list-style: none;
 }
