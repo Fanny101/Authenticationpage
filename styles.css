@@ -21,20 +21,22 @@ h1{
     background-color:#fff;
     display: flex;
     justify-content: center;
-    align-items: center;
-   
-   border-radius: 10px 10px 10px 0px;
- 
-  
-  
+    align-items: center;  
+  border-radius: 10px 10px 10px 0px;
 }
+
+input [type=text] {
+ 
+}
+
+
 #username{
   display: flex;
   flex-direction: column;
 }
 .socialmedia_images{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .socialmedia_images img{
@@ -54,6 +56,10 @@ h1{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
+}
+.sign_up a{
+  margin-top: 10px;
 }
 #forgot_password a {
 display: flex;
@@ -70,11 +76,75 @@ justify-content: end;
   height: 40px;
   border-radius: 20px;
 }
-.orSignUP{
- 
+.login_button button:hover{
+   cursor: pointer;
+}
+#socialmedia{
+  margin-top: 10px;
+}
+#socialmedia span{
+display: flex;
+justify-content: center;
 }
  
-
+a{
+  text-decoration: none;
+}
 ul, li{
   list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 500px){
+  .auth_card{
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 14px;
+   border-radius: 10px 10px 10px 0px;
+}
+
+
+
+}
+
+@media(min-width:510px){
+
+  .auth_card{
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 30px;
+   border-radius: 10px 10px 10px 0px;
+}
+
+}
+
+
+
+@media(min-width: 600px){
+  .auth_card{
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 70px;
+   border-radius: 10px 10px 10px 0px;
+}
 }
