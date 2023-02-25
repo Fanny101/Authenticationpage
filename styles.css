@@ -7,7 +7,7 @@ html {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #192b32;
 }
 body {
   font-family: 'Bitter', serif;
@@ -75,6 +75,9 @@ justify-content: end;
   width: 260px;
   height: 40px;
   border-radius: 20px;
+  color: #fff;
+  background-color: #192b32;
+  font-size: 15px;
 }
 .login_button button:hover{
    cursor: pointer;
