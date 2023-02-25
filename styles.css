@@ -12,11 +12,20 @@ html {
 body {
   font-family: 'Bitter', serif;
 }
+
+h1{
+  text-align: center;
+  font-weight: 900;
+}
 .auth_card{
     background-color:#fff;
     display: flex;
     justify-content: center;
+    align-items: center;
    
+   border-radius: 10px 10px 10px 0px;
+ 
+  
   
 }
 #username{
@@ -46,10 +55,25 @@ body {
   justify-content: center;
   align-items: center;
 }
- span .forgot_password{
-  display: flex;
-  justify-content: flex-end;
+#forgot_password a {
+display: flex;
+justify-content: end;
 }
+
+.login_button{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.login_button button{
+  width: 260px;
+  height: 40px;
+  border-radius: 20px;
+}
+.orSignUP{
+ 
+}
+ 
 
 ul, li{
   list-style: none;
